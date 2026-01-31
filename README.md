@@ -42,17 +42,17 @@ The project follows a **layered, dependency-safe architecture**:
 ## 📂 Project Structure
 tic_tac_toe_ai/
 │
-├── README.md                          // Submission-ready explanation
-├── CMakeLists.txt                    // Build system (Qt + C++)
+├── README.md
+├── CMakeLists.txt                    
 │
 ├── docs/
-│   ├── Architecture.md               // Layered architecture explanation
-│   ├── UML_Diagram.txt               // Class diagram (text / draw.io)
-│   └── AI_Design.md                  // Minimax + heuristics explanation
+│   ├── Architecture.md
+│   ├── UML_Diagram.txt              
+│   └── AI_Design.md                 
 │
 └── src/
     │
-    ├── main.cpp                      // Console playable version
+    ├── main.cpp
     │
     ├── dashboard/
     │   ├── Dashboard.h
@@ -61,14 +61,14 @@ tic_tac_toe_ai/
     │   └── GameSettings.cpp
     │
     ├── board/
-    │   ├── CellModel.h               // enum Cell { EMPTY, X, O }
-    │   ├── BoardModel.h              // NxN board
+    │   ├── CellModel.h
+    │   ├── BoardModel.h             
     │   ├── BoardModel.cpp
     │   ├── BoardGenerator.h
     │   └── BoardGenerator.cpp
     │
     ├── rules/
-    │   ├── WinChecker.h              // works for any N
+    │   ├── WinChecker.h
     │   ├── WinChecker.cpp
     │   ├── DrawChecker.h
     │   ├── DrawChecker.cpp
@@ -82,44 +82,45 @@ tic_tac_toe_ai/
     │   ├── TurnManager.cpp
     │   ├── ResultEvaluator.h
     │   ├── ResultEvaluator.cpp
-    │   ├── ReplayManager.h           // replay & reset
+    │   ├── ReplayManager.h          
     │   ├── ReplayManager.cpp
-    │   ├── TournamentManager.h       // multiple games stats
+    │   ├── TournamentManager.h      
     │   ├── TournamentManager.cpp
-    │   ├── GameController.h          // single point of control
+    │   ├── GameController.h          
     │   └── GameController.cpp
     │
     ├── ai/
-    │   ├── AIEngine.h                // difficulty-aware AI
+    │   ├── AIEngine.h               
     │   ├── AIEngine.cpp
-    │   ├── AIStrategy.h              // hybrid strategy rules
+    │   ├── AIStrategy.h             
     │   ├── AIStrategy.cpp
-    │   ├── Minimax.h                 // depth-limited + alpha-beta
+    │   ├── Minimax.h                
     │   ├── Minimax.cpp
-    │   ├── Heuristics.h              // line & threat evaluation
+    │   ├── Heuristics.h             
     │   ├── Heuristics.cpp
     │   ├── MoveEvaluator.h
     │   └── MoveEvaluator.cpp
     │
-    ├── ui_qt/                        // Qt GUI (NO game logic)
+    ├── ui_qt/
     │   ├── MainWindow.h
     │   ├── MainWindow.cpp
     │   ├── BoardWidget.h
     │   ├── BoardWidget.cpp
     │   ├── CellButton.h
     │   ├── CellButton.cpp
-    │   ├── GameDialog.h              // win / draw dialog
+    │   ├── GameDialog.h             
     │   └── GameDialog.cpp
     │
     └── utils/
-        ├── Enums.h                   // Cell, Difficulty, GameStatus
-        ├── Constants.h               // scores, limits
+        ├── Enums.h                  
+        ├── Constants.h              
         └── Helpers.h
 
 (Each folder contains `.h` and `.cpp` files as audited.)
-
-<img width="1078" height="825" alt="Screenshot 2026-01-31 at 12 01 36 PM" src="https://github.com/user-attachments/assets/1c2d6d34-b815-495a-9882-6b4fa1cd888e" />
-
+<img width="1104" height="718" alt="Screenshot 2026-01-31 at 12 00 12 PM" src="https://github.com/user-attachments/assets/d4621893-8163-4639-8109-ea4c1fb01782" />
+<img width="1078" height="570" alt="Screenshot 2026-01-31 at 12 00 41 PM" src="https://github.com/user-attachments/assets/47c3923e-61ce-457b-a804-40d5cdd7cdcf" />
+<img width="1078" height="801" alt="Screenshot 2026-01-31 at 12 01 05 PM" src="https://github.com/user-attachments/assets/9a4a9602-368b-4b23-ae6c-790f83f7177a" />
+<img width="1078" height="825" alt="Screenshot 2026-01-31 at 12 01 36 PM" src="https://github.com/user-attachments/assets/fb0d0a95-9aa7-45b5-aa30-3e9a0c3e8dba" />
 
 ## 🛠️ Technologies Used
 
