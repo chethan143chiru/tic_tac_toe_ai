@@ -1,7 +1,14 @@
 #include "GameController.h"
+<<<<<<< HEAD
 #include "../rules/MoveValidator.h"
 #include "../ai/AIEngine.h"
 #include "ResultEvaluator.h"
+=======
+#include "rules/MoveValidator.h"
+#include "ai/AIEngine.h"
+#include "game/TurnManager.h"
+#include "game/ResultEvaluator.h"
+>>>>>>> 3d367e3b7f4e39f291e69c37ef186f131aa6d364
 
 GameController::GameController(int boardSize, Cell humanSymbol, Difficulty diff)
     : state(boardSize, humanSymbol),

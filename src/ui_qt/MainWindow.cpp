@@ -1,5 +1,9 @@
 #include "MainWindow.h"
+<<<<<<< HEAD
 #include "GameDialog.h"
+=======
+#include "ui_qt/GameDialog.h"
+>>>>>>> 3d367e3b7f4e39f291e69c37ef186f131aa6d364
 
 MainWindow::MainWindow(QWidget* parent)
     : QMainWindow(parent) {

@@ -1,8 +1,13 @@
 #ifndef GAME_STATE_H
 #define GAME_STATE_H
 
+<<<<<<< HEAD
 #include "../board/BoardModel.h"
 #include "../utils/Enums.h"
+=======
+#include "board/BoardModel.h"
+#include "utils/Enums.h"
+>>>>>>> 3d367e3b7f4e39f291e69c37ef186f131aa6d364
 
 class GameState {
 private:

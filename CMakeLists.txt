@@ -1,3 +1,15 @@
+<<<<<<< HEAD
+=======
+
+---
+
+# ⚙️ `CMakeLists.txt`  
+**(Qt + C++ Build System)**
+
+This is a **correct, modern, Qt-6 compatible CMake file**.
+
+```cmake
+>>>>>>> 3d367e3b7f4e39f291e69c37ef186f131aa6d364
 cmake_minimum_required(VERSION 3.16)
 
 project(TicTacToeAI LANGUAGES CXX)
