@@ -39,7 +39,6 @@ The project follows a **layered, dependency-safe architecture**:
 
 ---
 
-(Each folder contains `.h` and `.cpp` files as audited.)
 <img width="1104" height="718" alt="Screenshot 2026-01-31 at 12 00 12 PM" src="https://github.com/user-attachments/assets/d4621893-8163-4639-8109-ea4c1fb01782" />
 <img width="1078" height="570" alt="Screenshot 2026-01-31 at 12 00 41 PM" src="https://github.com/user-attachments/assets/47c3923e-61ce-457b-a804-40d5cdd7cdcf" />
 <img width="1078" height="801" alt="Screenshot 2026-01-31 at 12 01 05 PM" src="https://github.com/user-attachments/assets/9a4a9602-368b-4b23-ae6c-790f83f7177a" />
