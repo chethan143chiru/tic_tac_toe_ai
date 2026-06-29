@@ -62,7 +62,7 @@ The project follows a **layered, dependency-safe architecture**:
 - C++ compiler supporting **C++17**
 - **CMake ≥ 3.16**
 - **Qt 6** (for GUI build)
-- Linux / macOS / Windows
+- Linux / MacOS / Windows
 
 ---
 
@@ -71,4 +71,3 @@ The project follows a **layered, dependency-safe architecture**:
 ### Step 1: Clone the Repository
 ```bash
 git clone https://github.com/chethan143chiru/tic_tac_toe_ai.git
-cd TicTacToe-AI
